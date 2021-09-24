@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./.github/#" width=200px"/></h1>
+<h1 align="center"><img src="./.github/logo.png" width=96px"/></h1>
 
 <h3 align="center">dashgo.</h3>
 
@@ -21,7 +21,7 @@
     <td colspan="1">Web</td>
   </tr>
   <tr>
-    <td><img src="./.github/#" width=1000px /></td></td>
+    <td><img src="./.github/dashgo.gif" width=1000px /></td></td>
   </tr>
 </table>
 
@@ -45,9 +45,9 @@ $ yarn dev
 - [React](https://pt-br.reactjs.org/)
 - [Chakra](https://chakra-ui.com/)
 - [MirageJS](https://miragejs.com/)
-- [ApexCharts](https://apexcharts.com/)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [TypeScript](https://www.typescriptlang.org/)
+- [ApexCharts](https://apexcharts.com/)
 
 ---
 
