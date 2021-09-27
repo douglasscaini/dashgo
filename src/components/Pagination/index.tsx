@@ -34,10 +34,15 @@ export function Pagination({
       ? generatePagesArray(currentPage, Math.min(currentPage + siblingsCount, lastPage))
       : [];
 
+  const pageUserCount = currentPage * registerPerPage;
+  const pageIndexCount = pageUserCount - 9;
+
   return (
     <Stack direction={["column", "row"]} mt="8" justify="space-between" align="center" spacing="6">
       <Box>
-        <strong>0</strong> - <strong>10</strong> de <strong>{totalCountOfRegisters}</strong>
+        <strong>
+          {pageIndexCount} - {pageUserCount} de {totalCountOfRegisters}
+        </strong>
       </Box>
 
       <Stack direction="row" spacing="2">
