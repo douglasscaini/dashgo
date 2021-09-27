@@ -96,7 +96,7 @@ export default function UserList() {
                       <Checkbox colorScheme="pink" />
                     </Th>
                     <Th>Usuário</Th>
-                    {isWideVersion && <Th>Data de cadastro</Th>}
+                    {isWideVersion && <Th textAlign="center">Data de cadastro</Th>}
                   </Tr>
                 </Thead>
 
@@ -116,7 +116,7 @@ export default function UserList() {
                           </Text>
                         </Box>
                       </Td>
-                      {isWideVersion && <Td>{user.createdAt}</Td>}
+                      {isWideVersion && <Td textAlign="center">{user.createdAt}</Td>}
                     </Tr>
                   ))}
                 </Tbody>
